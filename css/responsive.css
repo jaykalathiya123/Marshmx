@@ -1,0 +1,230 @@
+@media (min-width: 1300px) and (max-width: 2000px) {
+  .d-none-xxl {
+    display: none;
+  }
+  .social-midia-icon {
+    padding: 50px 0;
+  }
+  .xxl-flex-bitween {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+  .xxl-w-3 {
+    width: 25%;
+  }
+  .xxl-w-4 {
+    width: 33.33%;
+  }
+  .xxl-w-6 {
+    width: 50%;
+  }
+  .xxl-w-12 {
+    width: 100%;
+  }
+  .d-none-xxl {
+    display: none;
+  }
+  .xxl-flex-bitween {
+    flex-direction: row;
+  }
+  .bike-in{
+    display: none;
+  }
+  .xxl-flex-bitween {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 767px;
+  }
+  .xl-flex-direction {
+    flex-direction: column;
+  }
+  .xl-d-none {
+    display: none;
+  }
+  .xl-d-block {
+    display: flex;
+  }
+  .xl-order-1 {
+    order: 1;
+  }
+  .bike-in{
+    display: none;
+  }
+  .xl-order-2 {
+    order: 2;
+  }
+  .xl-w-3 {
+    width: 25%;
+  }
+  .xl-w-4 {
+    width: 33.33%;
+  }
+  .xl-w-6 {
+    width: 50%;
+  }
+  .xl-justify-content-center {
+    justify-content: center;
+  }
+  .xl-w-12 {
+    width: 100%;
+  }
+  .xl-flex-direction-column {
+    flex-direction: column;
+  }
+  .xl-gap{
+    gap: 30px;
+  }
+  .main-header{
+    padding: 38px 30px 28px 15px;
+  }
+  .two-col-conten{
+    padding: 70px 0 0 0;
+  }
+  .benar-contan h1{
+    font-size: 40px;
+  }
+  .btn-pramre{
+    padding: 24px 0;
+  }
+  .btn-second{
+    padding: 24px 0;
+  }
+  .card-contain h2,.card-contain h3{
+    font-size: 25px;
+  }
+  .brand-title h2{
+    font-size: 30px;
+  }
+  .finder-sec-contain h2{
+    font-size: 30px;
+  }
+  .info-slide-item h3{
+    font-size: 25px;
+  }
+  .info-slide-item h5{
+    font-size: 12px;
+  }
+  .help-contain h2{
+    font-size: 30px;
+  }
+  .help-contain span{
+    font-size: 50px;
+  }
+  .logo-group{
+    flex-wrap: wrap;
+  }
+  /* .banner-sec{
+    height: 100%;
+  } */
+}
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 575px;
+  }
+  .lg-w-3 {
+    width: 25%;
+  }
+  .lg-w-4 {
+    width: 33.33%;
+  }
+  .lg-w-6 {
+    width: 50%;
+  }
+  .lg-w-12 {
+    width: 100%;
+  }
+  .from-in > .gap {
+    gap: 0;
+  }
+  .lg-none {
+    display: none;
+  }
+  .lg-block {
+    display: block;
+  }
+  .lg-flex-bitween {
+    justify-content: space-between;
+  }
+  .two-col-conten h2{
+    font-size: 30px;
+  }
+  .two-col-conten{
+    padding: 70px 0 0 0;
+  }
+  .bike-in{
+    display: block;
+  }
+  .menu-in {
+    display: none;
+    color: rgb(255, 255, 255);
+  }
+  .top-header {
+    display: none;
+  }
+  .lg-flex-direction {
+    flex-direction: column;
+  }
+  .lg-order-1 {
+    order: 1;
+  }
+  .contech-icon li {
+    max-width: 100%;
+  }
+  .lg-order-2 {
+    order: 2;
+  }
+  .lg-justify-center {
+    justify-content: center;
+  }
+  .lg-justify-start {
+    justify-content: start;
+  }
+  .lg-justify-content-start {
+    justify-content: start;
+  }
+  .box-slied img{
+    height: 200px;
+  }
+  .card-contain h2,.card-contain h3{
+    font-size: 16px;
+  }
+  .card-contain h5{
+    font-size: 20px;
+  }
+  .slide-bike-explore h3{
+    font-size: 30px;
+  }
+  
+  .slide-bike-sec .slick-track , .bike-explore-slied .slick-track  {
+    gap: 10px !important;
+  }
+  
+  
+}
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+  .sm-w-3 {
+    width: 25%;
+  }
+  .sm-w-4 {
+    width: 33.33%;
+  }
+  .sm-w-6 {
+    width: 50%;
+  }
+  .sm-none{
+    display: none;
+  }
+  .sm-w-12 {
+    width: 100%;
+  }
+}

@@ -1,4 +1,73 @@
 @font-face {
+    font-family: 'Transducer Test Medium Condensed Oblique';
+    src: url('/font/Transducer-MediumCondensedOblique.eot');
+    src: url('/font/Transducer-MediumCondensedOblique.eot?#iefix') format('embedded-opentype'),
+        url('/font/Transducer-MediumCondensedOblique.woff2') format('woff2'),
+        url('/font/Transducer-MediumCondensedOblique.woff') format('woff'),
+        url('/font/Transducer-MediumCondensedOblique.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Transducer Test Medium Condensed Oblique';
+    src: url('/font/Transducer-MediumCondensedOblique.eot');
+    src: url('/font/Transducer-MediumCondensedOblique.eot?#iefix') format('embedded-opentype'),
+        url('/font/Transducer-MediumCondensedOblique.woff2') format('woff2'),
+        url('/font/Transducer-MediumCondensedOblique.woff') format('woff'),
+        url('/font/Transducer-MediumCondensedOblique.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer Test Medium Condensed Oblique';
+    src: url('/font/Transducer-MediumCondensedOblique_1.eot');
+    src: url('/font/Transducer-MediumCondensedOblique_1.eot?#iefix') format('embedded-opentype'),
+        url('/font/Transducer-MediumCondensedOblique_1.woff2') format('woff2'),
+        url('/font/Transducer-MediumCondensedOblique_1.woff') format('woff'),
+        url('/font/Transducer-MediumCondensedOblique_1.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer Test Medium Condensed Oblique';
+    src: url('/font/Transducer-MediumCondensedOblique_2.eot');
+    src: url('/font/Transducer-MediumCondensedOblique_2.eot?#iefix') format('embedded-opentype'),
+        url('/font/Transducer-MediumCondensedOblique_2.woff2') format('woff2'),
+        url('/font/Transducer-MediumCondensedOblique_2.woff') format('woff'),
+        url('/font/Transducer-MediumCondensedOblique_2.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer Test Medium Condensed Oblique';
+    src: url('/font/Transducer-MediumCondensedOblique_3.eot');
+    src: url('/font/Transducer-MediumCondensedOblique_3.eot?#iefix') format('embedded-opentype'),
+        url('/font/Transducer-MediumCondensedOblique_3.woff2') format('woff2'),
+        url('/font/Transducer-MediumCondensedOblique_3.woff') format('woff'),
+        url('/font/Transducer-MediumCondensedOblique_3.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Transducer Test Medium Condensed Oblique';
+    src: url('/font/Transducer-MediumCondensedOblique_4.eot');
+    src: url('/font/Transducer-MediumCondensedOblique_4.eot?#iefix') format('embedded-opentype'),
+        url('/font/Transducer-MediumCondensedOblique_4.woff2') format('woff2'),
+        url('/font/Transducer-MediumCondensedOblique_4.woff') format('woff'),
+        url('/font/Transducer-MediumCondensedOblique_4.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Acumin Pro Wide';
+    src: url('/font/AcuminProWide-Regular.eot');
+    src: url('/font/AcuminProWide-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/AcuminProWide-Regular.woff2') format('woff2'),
+        url('/font/AcuminProWide-Regular.woff') format('woff'),
+        url('/font/AcuminProWide-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'Transducer Test Condensed';
     src:url('/font/Transducer-BoldCondensed.woff2') format('woff2'),
     url('/font/Transducer-BoldCondensed.woff') format('woff');
