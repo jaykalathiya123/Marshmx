@@ -34,7 +34,7 @@
   .xxl-flex-bitween {
     flex-direction: row;
   }
-  .bike-in {
+  .bike-in{
     display: none;
   }
   .help-sec {
@@ -44,37 +44,10 @@
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 1200px) {
-  .gried-in {
-    grid-template-columns: 1fr 1fr;
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 767px;
   }
-  .menu-headar-li,
-  .dropdown-1,
-  .dropdown-2 {
-    font-size: 18px;
-  }
-  .ope-circal {
-    width: 35px;
-    height: 35px;
-  }
-  .menu-parat {
-    gap: 0px;
-  }
-  .other-optsen {
-    gap: 8px;
-  }
-  .footer-top-title h2 {
-    font-size: 25px;
-  }
-  .logo {
-    height: 34px;
-    max-width: 170px;
-}
-.stikey-item {
-  display: none;
-}
-}
-@media screen and (max-width: 991px) {
   .xl-flex-direction {
     flex-direction: column;
   }
@@ -87,7 +60,9 @@
   .xl-order-1 {
     order: 1;
   }
-
+  .bike-in{
+    display: none;
+  }
   .xl-order-2 {
     order: 2;
   }
@@ -121,10 +96,8 @@
   .benar-contan h1 {
     font-size: 40px;
   }
-   .benar-contan .btn-primary{
-    font-size: 14px;
-    padding: 23px 10px;
-    max-width: 196px;
+  .btn-pramre{
+    padding: 24px 0;
   }
   .btn-second {
     font-size: 14px;
@@ -152,45 +125,8 @@
   .help-contain span {
     font-size: 50px;
   }
-  .w-40 {
-    display: none;
-  }
-  .w-60 {
-    padding-left: 0px;
-    width: 100%;
-  }
-  .gried-in {
-    grid-template-columns: 1fr 1fr;
-  }
-  .finance .d-flex {
-    flex-direction: column;
-  }
-  .two-col-sec1 {
-    padding: 0px 0 100px 0;
-  }
-  .two-col-img{
-    margin: 0 -16px;
-  }
-  .bike-in{
-    display: inline-block;
-    width: 100%;
-  }
-  .box-gap {
-    padding: 0 10px 147px 10px;
-  }
-  .box-gap button{
-    max-width: 260px;
-    top: calc(100% - 180px);
-  }
-  .xl-order-1{
-    order: 1;
-  }
-  .xl-order-2{
-    order: 2;
-  }
-  .logo {
-    height: 50px;
-    max-width: 240px;
+  .logo-group{
+    flex-wrap: wrap;
   }
   .button-group {
     margin-bottom: 60px;
@@ -204,55 +140,7 @@
   }
   .bennar-bike .d-flex{
     height: 100%;
-  }
-  
-  .bike-img{
-   margin: 0 -15px;
-    position: static;
-  }
-  .explore-bikes-sec{
-    padding: 38px 0 0px 0;
-  }
-  
-.explore-slider {
-  height: 225px;
-  width: 100%;
-  text-align: center;
-  background-image: url(/img/bick-slide-in1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-.motor-name{
-  font-size: 30px;
-}
-.box-gap button{
-font-size: 14px;
-}
-.details {
-  margin-bottom: 40px;
-}
-.footer-title h2 {
-  margin-bottom: 10px;
-}
-.gap-icon {
-  margin-bottom: 70px;
-}
-.back-img-2,.back-img{
-  display: none;
-}
-.benar-contan{
-width: auto;
-}
-.infomation-sec{
-  height: 100%;
-}
-.in-flex{
-  padding:100px 0 104px 0;
-}
+  } */
 }
 @media screen and (max-width: 767px) {
   .lg-w-3 {
@@ -289,8 +177,7 @@ width: auto;
   .two-col-conten {
     padding: 70px 0 0 0;
   }
-  /* .bike-in {
-    margin-top: 60px;
+  .bike-in{
     display: block;
   } */
   .menu-in {
@@ -332,8 +219,7 @@ width: auto;
     background-color: #f8f8f8;
     padding: 17px;
   }
-  .bike-name{
-    line-height: 1.2;
+  .card-contain h2,.card-contain h3{
     font-size: 16px;
   }
   .bike-prc {
@@ -344,42 +230,12 @@ width: auto;
   .slide-bike-explore h3 {
     font-size: 30px;
   }
- .gried-in {
-    grid-template-columns: 1fr;
+  
+  .slide-bike-sec .slick-track , .bike-explore-slied .slick-track  {
+    gap: 10px !important;
   }
-  .banner-sec .w-6 {
-    margin-left: 0px;
-  }
-  .benar-contan {
-      margin-left: 0px;
-  }
-  .slide-bike-explore,
-  .slide-bike-explore1,
-  .slide-bike-explore2,
-  .slide-bike-explore3 {
-    height: 100%;
-    min-height: 226px;
-    width: 346px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    background-position: center;
-    align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .slide-bike-explore button {
-    position: absolute;
-    bottom: -136px;
-    font-size: 12px;
-    transform: translateX(-50%);
-    padding: 40px 0 36px 0;
-    max-width: 216px;
-  }
-  .help-sec{
-    background-image: url(/img/section-back-img.png);
-    background-position: center;
-  }
+  
+  
 }
 @media screen and (max-width: 575px) {
   .container {
@@ -402,47 +258,5 @@ width: auto;
   }
   .sm-w-12 {
     width: 100%;
-  }
-  .slide-bick-title h3 {
-    font-size: 36px;
-  }
-  .main-header .container{
-    padding: 0 15px;
-  }
-  .slide-bike-sec .slick-prev,.slide-bike-sec .slick-next {
-    height:32px;
-    top: -68px;
-    width:38px ;
-    background-size:8px ;
-  }
-  .slide-bike-sec .slick-prev{
-    right: 36px;
-  }
-  .bike-img {
-    margin: 0 -36px;
-    position: static;
-}
-.two-col-img {
-  margin: 0px -38px;
-}
-}
-@media screen and (max-width: 400px){
-.toggle-icon {
-  display: flex;
-  gap: 10px;
-}
-.box-bick {
-  width: 180px;
-}
-.motor-name {
-  font-size: 22px;
-}
-.logo {
-  height: 38px;
-  max-width: 178px;
-}
-.box-gap button{
-  font-size: 12px;
-  max-width: 216px;
   }
 }
